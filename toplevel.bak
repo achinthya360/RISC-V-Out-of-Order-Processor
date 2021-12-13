@@ -1,0 +1,46 @@
+`timescale 1ns/1ns
+
+module top(inst1, inst2);
+	// parameter to set length of instMem text file
+	parameter INST_MEM_LENGTH = 68;
+	// temporary self clocking for testing TODO: change this to an input?
+	reg clk;
+	
+	integer instmemfile;
+	
+	// instMem for loading in instructions
+	reg [7:0] instMem[0:INST_MEM_LENGTH-1];
+	
+	// program counter
+	reg [31:0] pc;
+	output reg [31:0] inst1, inst2;
+	
+	// need an integer to run for loop for reading in
+	integer i;
+	initial begin
+		instmemfile = $fopen("C:/Users/achin/Downloads/instMem_t.txt", "r");  
+		while(!$feof(instmemfile)) begin
+			// read in instMem in decimal
+			$fscanf(instmemfile, "%d\n", instMem[i]); 
+		end
+		for(i = 0; i<INST_MEM_LENGTH; i = i+1) begin
+			$display("instructionSet[%0d] = 0x%0d", i, instMem[i]);
+		end
+		$fclose(instmemfile);
+		// delay to let the memory read complete
+		#10
+		clk = 0;
+		pc = 32'b0;
+	end
+	
+	always @(posedge clk) begin
+		inst1 <= instMem[pc];
+		pc <= pc + 4;
+	end
+	
+	always begin
+		#1
+		clk = ~clk;
+	end
+
+endmodule

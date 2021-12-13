@@ -1,0 +1,1464 @@
+# Compile of execute.sv was successful.
+# Compile of execute.sv was successful.
+# Compile of execute.sv was successful.
+# Compile of execute.sv was successful.
+# Compile of execute.sv failed with 3 errors.
+# Compile of execute.sv was successful.
+# Compile of execute.sv was successful.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of execute.sv failed with 2 errors.
+# Compile of execute.sv was successful.
+# Compile of execute.sv was successful.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv failed with 2 errors.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv failed with 2 errors.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of decode.sv was successful.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv failed with 4 errors.
+# 7 compiles, 1 failed with 4 errors.
+# Compile of execute.sv failed with 4 errors.
+# Compile of execute.sv was successful.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv failed with 5 errors.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 5 errors.
+# Compile of rtl.sv was successful.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv failed with 1 errors.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of top.sv failed with 1 errors.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of top.sv failed with 1 errors.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of top.sv failed with 1 errors.
+# Compile of top.sv failed with 1 errors.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of top.sv failed with 1 errors.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 19:33:38 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.MEM
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'datamem'.  Expected 9, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'addr' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'writedata' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'readdata' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'MemWrite' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'MemRead' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'memOP'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rs1val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rs2val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'imm'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rdval'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'swaddr'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'swdata'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'raddr'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rdata'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu1 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 162
+# ** Error: (vsim-3063) Port 'aluOP_1' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu1 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 162
+# ** Error: (vsim-3063) Port 'rs1val_1' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu1 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 162
+# ** Error: (vsim-3063) Port 'rs2val_1' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu1 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 162
+# ** Error: (vsim-3063) Port 'rdval_1' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu1 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 162
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(162): [TFMPC] - Missing connection for port 'aluOP'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(162): [TFMPC] - Missing connection for port 'aluSrc'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(162): [TFMPC] - Missing connection for port 'rs1val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(162): [TFMPC] - Missing connection for port 'rs2val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(162): [TFMPC] - Missing connection for port 'imm'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(162): [TFMPC] - Missing connection for port 'rdval'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu2'.  Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu2 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 163
+# ** Error: (vsim-3063) Port 'aluOP_2' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu2 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 163
+# ** Error: (vsim-3063) Port 'rs1val_2' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu2 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 163
+# ** Error: (vsim-3063) Port 'rs2val_2' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu2 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 163
+# ** Error: (vsim-3063) Port 'rdval_2' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/alu2 File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 163
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(163): [TFMPC] - Missing connection for port 'aluOP'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(163): [TFMPC] - Missing connection for port 'aluSrc'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(163): [TFMPC] - Missing connection for port 'rs1val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(163): [TFMPC] - Missing connection for port 'rs2val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(163): [TFMPC] - Missing connection for port 'imm'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(163): [TFMPC] - Missing connection for port 'rdval'.
+# Error loading design
+# End time: 19:33:38 on Dec 12,2021, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 53
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 19:37:32 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.MEM
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'datamem'.  Expected 9, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'addr' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'writedata' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'readdata' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'MemWrite' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Error: (vsim-3063) Port 'MemRead' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /top/E/datamem File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv Line: 161
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'memOP'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rs1val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rs2val'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'imm'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rdval'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'swaddr'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'swdata'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'raddr'.
+# ** Warning: (vsim-3722) C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv(161): [TFMPC] - Missing connection for port 'rdata'.
+# Error loading design
+# End time: 19:37:32 on Dec 12,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 14
+# Compile of execute.sv was successful.
+vsim work.top
+# vsim work.top 
+# Start time: 19:37:59 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+add wave -position insertpoint  \
+sim:/top/MemRead_1_DR \
+sim:/top/MemRead_1_DtoR \
+sim:/top/MemRead_1_RtoDI \
+sim:/top/MemRead_2_DR \
+sim:/top/MemRead_2_DtoR \
+sim:/top/MemRead_2_RtoDI \
+sim:/top/MemtoReg_1_DR \
+sim:/top/MemtoReg_1_DtoR \
+sim:/top/MemtoReg_1_RtoDI \
+sim:/top/MemtoReg_2_DR \
+sim:/top/MemtoReg_2_DtoR \
+sim:/top/MemtoReg_2_RtoDI \
+sim:/top/MemWrite_1_DR \
+sim:/top/MemWrite_1_DtoR \
+sim:/top/MemWrite_1_RtoDI \
+sim:/top/MemWrite_2_DR \
+sim:/top/MemWrite_2_DtoR \
+sim:/top/MemWrite_2_RtoDI
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of top.sv was successful.
+vsim work.top
+# End time: 19:42:18 on Dec 12,2021, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 4
+# vsim work.top 
+# Start time: 19:42:18 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/ALUOp_1_DR \
+sim:/top/ALUOp_1_DtoR \
+sim:/top/ALUOp_1_RtoDI \
+sim:/top/ALUOp_2_DR \
+sim:/top/ALUOp_2_DtoR \
+sim:/top/ALUOp_2_RtoDI \
+sim:/top/ALUSrc_1_DR \
+sim:/top/ALUSrc_1_DtoR \
+sim:/top/ALUSrc_1_RtoDI \
+sim:/top/ALUSrc_2_DR \
+sim:/top/ALUSrc_2_DtoR \
+sim:/top/ALUSrc_2_RtoDI
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/rs1_1_DR \
+sim:/top/rs1_1_DtoR \
+sim:/top/rs1_1_RDI \
+sim:/top/rs1_1_RtoDI \
+sim:/top/rs1_2_DR \
+sim:/top/rs1_2_DtoR \
+sim:/top/rs1_2_RDI \
+sim:/top/rs1_2_RtoDI \
+sim:/top/rs2_1_DR \
+sim:/top/rs2_1_DtoR \
+sim:/top/rs2_1_RDI \
+sim:/top/rs2_1_RtoDI \
+sim:/top/rs2_2_DR \
+sim:/top/rs2_2_DtoR \
+sim:/top/rs2_2_RDI \
+sim:/top/rs2_2_RtoDI
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/regtofree_1 \
+sim:/top/regtofree_2
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/inst1_FD \
+sim:/top/inst1_FtoD \
+sim:/top/inst2_FD \
+sim:/top/inst2_FtoD
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/E/ROB \
+sim:/top/E/RS
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+{sim:/top/E/ROB[0]} \
+{sim:/top/E/ROB[1]} \
+{sim:/top/E/ROB[2]} \
+{sim:/top/E/ROB[3]} \
+{sim:/top/E/ROB[4]} \
+{sim:/top/E/ROB[5]} \
+{sim:/top/E/ROB[6]} \
+{sim:/top/E/ROB[7]} \
+{sim:/top/E/ROB[8]} \
+{sim:/top/E/ROB[9]} \
+{sim:/top/E/ROB[10]} \
+{sim:/top/E/ROB[11]} \
+{sim:/top/E/ROB[12]} \
+{sim:/top/E/ROB[13]} \
+{sim:/top/E/ROB[14]} \
+{sim:/top/E/ROB[15]}
+add wave -position insertpoint  \
+{sim:/top/E/RS[0]} \
+{sim:/top/E/RS[1]} \
+{sim:/top/E/RS[2]} \
+{sim:/top/E/RS[3]} \
+{sim:/top/E/RS[4]} \
+{sim:/top/E/RS[5]} \
+{sim:/top/E/RS[6]} \
+{sim:/top/E/RS[7]} \
+{sim:/top/E/RS[8]} \
+{sim:/top/E/RS[9]} \
+{sim:/top/E/RS[10]} \
+{sim:/top/E/RS[11]} \
+{sim:/top/E/RS[12]} \
+{sim:/top/E/RS[13]} \
+{sim:/top/E/RS[14]} \
+{sim:/top/E/RS[15]}
+quit -sim
+# End time: 20:17:07 on Dec 12,2021, Elapsed time: 0:34:49
+# Errors: 0, Warnings: 2
+# Compile of rename.sv was successful with warnings.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# vsim work.top 
+# Start time: 20:17:16 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+add wave -position insertpoint  \
+{sim:/top/E/ROB[0]} \
+{sim:/top/E/ROB[1]} \
+{sim:/top/E/ROB[2]} \
+{sim:/top/E/ROB[3]} \
+{sim:/top/E/ROB[4]} \
+{sim:/top/E/ROB[5]} \
+{sim:/top/E/ROB[6]} \
+{sim:/top/E/ROB[7]} \
+{sim:/top/E/ROB[8]} \
+{sim:/top/E/ROB[9]} \
+{sim:/top/E/ROB[10]} \
+{sim:/top/E/ROB[11]} \
+{sim:/top/E/ROB[12]} \
+{sim:/top/E/ROB[13]} \
+{sim:/top/E/ROB[14]} \
+{sim:/top/E/ROB[15]}
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 4 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 5 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 6 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 8 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=10 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=12 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=13 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=14 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/PC_RtoDI1 \
+sim:/top/PC_RtoDI2
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 4 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 5 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 6 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 8 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=10 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=12 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=13 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=14 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/R/firstfree
+add wave -position insertpoint  \
+sim:/top/rs1_1_DtoR
+add wave -position insertpoint  \
+sim:/top/rs2_1_DtoR
+add wave -position insertpoint  \
+sim:/top/rs1_2_DtoR
+add wave -position insertpoint  \
+sim:/top/rs2_2_DtoR
+add wave -position insertpoint  \
+sim:/top/rd_1_DtoR
+add wave -position insertpoint  \
+sim:/top/rd_2_DtoR
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 4 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 5 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 6 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 8 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=10 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=12 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=13 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=14 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of execute.sv failed with 1 errors.
+# Compile of execute.sv was successful.
+add wave -position insertpoint  \
+sim:/top/E/MemWrite_1
+add wave -position insertpoint  \
+sim:/top/E/RegWrite_1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.execute_sv_unit
+# Loading work.execute
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 4 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 5 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 6 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 8 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=10 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=12 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=13 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum=14 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# End time: 20:53:15 on Dec 12,2021, Elapsed time: 0:35:59
+# Errors: 0, Warnings: 3
+# vsim work.top 
+# Start time: 20:53:15 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+add wave -position insertpoint  \
+{sim:/top/E/ROB[0]} \
+{sim:/top/E/ROB[1]} \
+{sim:/top/E/ROB[2]} \
+{sim:/top/E/ROB[3]} \
+{sim:/top/E/ROB[4]} \
+{sim:/top/E/ROB[5]} \
+{sim:/top/E/ROB[6]} \
+{sim:/top/E/ROB[7]} \
+{sim:/top/E/ROB[8]} \
+{sim:/top/E/ROB[9]} \
+{sim:/top/E/ROB[10]} \
+{sim:/top/E/ROB[11]} \
+{sim:/top/E/ROB[12]} \
+{sim:/top/E/ROB[13]} \
+{sim:/top/E/ROB[14]} \
+{sim:/top/E/ROB[15]}
+add wave -position insertpoint  \
+sim:/top/E/MemRead_1 \
+sim:/top/E/MemRead_2 \
+sim:/top/E/MemWrite_1 \
+sim:/top/E/MemWrite_2
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/RegWrite_1_RtoDI
+add wave -position insertpoint  \
+sim:/top/RegWrite_2_RtoDI
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/E/PC_R1 \
+sim:/top/E/PC_R2
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/MemRead_1_DR
+add wave -position insertpoint  \
+sim:/top/MemRead_1_DtoR
+add wave -position insertpoint  \
+sim:/top/MemRead_1_RtoDI
+add wave -position insertpoint  \
+sim:/top/MemWrite_1_DR
+add wave -position insertpoint  \
+sim:/top/MemWrite_1_DtoR
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/R/rd_1 \
+sim:/top/R/rd_2 \
+sim:/top/R/rdout_1 \
+sim:/top/R/rdout_2
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# End time: 21:13:14 on Dec 12,2021, Elapsed time: 0:19:59
+# Errors: 0, Warnings: 3
+# vsim work.top 
+# Start time: 21:13:14 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# first free for rd_1:   3
+# old dest for rd_1:  11
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+{sim:/top/E/ROB[0]} \
+{sim:/top/E/ROB[1]} \
+{sim:/top/E/ROB[2]} \
+{sim:/top/E/ROB[3]} \
+{sim:/top/E/ROB[4]} \
+{sim:/top/E/ROB[5]} \
+{sim:/top/E/ROB[6]} \
+{sim:/top/E/ROB[7]} \
+{sim:/top/E/ROB[8]} \
+{sim:/top/E/ROB[9]} \
+{sim:/top/E/ROB[10]} \
+{sim:/top/E/ROB[11]} \
+{sim:/top/E/ROB[12]} \
+{sim:/top/E/ROB[13]} \
+{sim:/top/E/ROB[14]} \
+{sim:/top/E/ROB[15]}
+run -all
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 45 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# first free for rd_1:   3
+# old dest for rd_1:  11
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/F/pc
+add wave -position insertpoint  \
+sim:/top/F/inst1
+add wave -position insertpoint  \
+sim:/top/D/inst1
+add wave -position insertpoint  \
+sim:/top/D/RegWrite_1
+add wave -position insertpoint  \
+sim:/top/R/RegWrite_1
+add wave -position insertpoint  \
+sim:/top/RegWrite_1_DR \
+sim:/top/RegWrite_1_DtoR \
+sim:/top/RegWrite_1_RtoDI
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# first free for rd_1:   3
+# old dest for rd_1:  11
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+add wave -position insertpoint  \
+sim:/top/PC_DtoR1
+add wave -position insertpoint  \
+sim:/top/PC_RDi1
+add wave -position insertpoint  \
+sim:/top/PC_RtoDI1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 2 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 3 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 4 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=3 ROBnum= 6 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=2 ROBnum= 7 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=11 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# first free for rd_1:   3
+# old dest for rd_1:  11
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 43 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# End time: 22:26:47 on Dec 12,2021, Elapsed time: 1:13:33
+# Errors: 0, Warnings: 4
+# vsim work.top 
+# Start time: 22:26:47 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+add wave -position insertpoint  \
+sim:/top/pc \
+sim:/top/PC_DtoR1 \
+sim:/top/PC_DtoR2 \
+sim:/top/pc_F
+add wave -position insertpoint  \
+sim:/top/PC_RDi1 \
+sim:/top/PC_RDi2 \
+sim:/top/PC_RtoDI1 \
+sim:/top/PC_RtoDI2
+add wave -position insertpoint  \
+sim:/top/RegWrite_1_DR \
+sim:/top/RegWrite_1_DtoR \
+sim:/top/RegWrite_1_RtoDI \
+sim:/top/RegWrite_2_DR \
+sim:/top/RegWrite_2_DtoR \
+sim:/top/RegWrite_2_RtoDI
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 4 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 5 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 6 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 7 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 8 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=10 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=11 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=13 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=         4 complete=0, rdval=         0
+# Break key hit
+# Simulation stop requested.
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# End time: 22:30:00 on Dec 12,2021, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 3
+# vsim work.top 
+# Start time: 22:30:00 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+add wave -position insertpoint  \
+sim:/top/pc \
+sim:/top/PC_DtoR1 \
+sim:/top/PC_DtoR2 \
+sim:/top/pc_F \
+sim:/top/PC_RDi1 \
+sim:/top/PC_RDi2 \
+sim:/top/PC_RtoDI1 \
+sim:/top/PC_RtoDI2
+add wave -position insertpoint  \
+sim:/top/RegWrite_1_DR \
+sim:/top/RegWrite_1_DtoR \
+sim:/top/RegWrite_1_RtoDI \
+sim:/top/RegWrite_2_DR \
+sim:/top/RegWrite_2_DtoR \
+sim:/top/RegWrite_2_RtoDI
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 4 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 6 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 7 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        36 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=10 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=11 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=13 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        60 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        64 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        68 complete=0, rdval=         0
+# first free for rd_1:   3
+# old dest for rd_1:  11
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 44 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of top.sv was successful.
+# Compile of fetch.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of rtl.sv was successful.
+# Compile of rename.sv was successful with warnings.
+# Compile of testbench.sv was successful.
+# Compile of execute.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.top
+# End time: 22:32:06 on Dec 12,2021, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 3
+# vsim work.top 
+# Start time: 22:32:06 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.top
+# Loading work.fetch
+# Loading work.decode
+# Loading work.rename
+# Loading work.execute_sv_unit
+# Loading work.execute
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/F File: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv Line: 22
+add wave -position insertpoint  \
+sim:/top/RegWrite_1_DR \
+sim:/top/RegWrite_1_DtoR \
+sim:/top/RegWrite_1_RtoDI \
+sim:/top/RegWrite_2_DR \
+sim:/top/RegWrite_2_DtoR \
+sim:/top/RegWrite_2_RtoDI
+add wave -position insertpoint  \
+sim:/top/pc \
+sim:/top/PC_DtoR1 \
+sim:/top/PC_DtoR2 \
+sim:/top/pc_F \
+sim:/top/PC_RDi1 \
+sim:/top/PC_RDi2 \
+sim:/top/PC_RtoDI1 \
+sim:/top/PC_RtoDI2
+add wave -position insertpoint  \
+{sim:/top/E/ROB[0]} \
+{sim:/top/E/ROB[1]} \
+{sim:/top/E/ROB[2]} \
+{sim:/top/E/ROB[3]} \
+{sim:/top/E/ROB[4]} \
+{sim:/top/E/ROB[5]} \
+{sim:/top/E/ROB[6]} \
+{sim:/top/E/ROB[7]} \
+{sim:/top/E/ROB[8]} \
+{sim:/top/E/ROB[9]} \
+{sim:/top/E/ROB[10]} \
+{sim:/top/E/ROB[11]} \
+{sim:/top/E/ROB[12]} \
+{sim:/top/E/ROB[13]} \
+{sim:/top/E/ROB[14]} \
+{sim:/top/E/ROB[15]}
+run -all
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=1 rs1val=         0 rs2=  0 rs2ready=1 rs2val=         0 FU=1 ROBnum= 0 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         0 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 1 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=         4 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum= 2 imm=         2
+# valid=1 destreg=  5 olddestreg=  5 PC=         8 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 3 imm=         3
+# valid=1 destreg=  6 olddestreg=  6 PC=        12 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 4 imm=         4
+# valid=1 destreg=  5 olddestreg=  5 PC=        16 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 5 imm=         8
+# valid=1 destreg=  6 olddestreg=  6 PC=        20 complete=0, rdval=         0
+# first free for rd_1:   1
+# old dest for rd_1:   5
+# in_use=1 memOP=0 aluOP=0 rd=  5 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 6 imm=        12
+# valid=1 destreg=  5 olddestreg=  5 PC=        24 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  6 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 7 imm=        16
+# valid=1 destreg=  6 olddestreg=  6 PC=        28 complete=0, rdval=         0
+# first free for rd_1:   2
+# old dest for rd_1:   6
+# in_use=1 memOP=1 aluOP=0 rd=  1 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum= 8 imm=         4
+# valid=1 destreg=  1 olddestreg=  5 PC=        32 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum= 9 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        36 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd=  2 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=10 imm=        12
+# valid=1 destreg=  2 olddestreg=  6 PC=        40 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=11 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        44 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=1 ROBnum=12 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        48 complete=0, rdval=         0
+# in_use=1 memOP=1 aluOP=0 rd= 11 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=3 ROBnum=13 imm=        16
+# valid=1 destreg= 11 olddestreg= 11 PC=        52 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd= 10 rs1=  2 rs1ready=0 rs1val=         0 rs2=  2 rs2ready=0 rs2val=         0 FU=1 ROBnum=14 imm=         7
+# valid=1 destreg= 10 olddestreg= 10 PC=        56 complete=0, rdval=         0
+# in_use=1 memOP=0 aluOP=0 rd=  0 rs1=  0 rs1ready=0 rs1val=         0 rs2=  0 rs2ready=0 rs2val=         0 FU=2 ROBnum=15 imm=         0
+# valid=1 destreg=  0 olddestreg=  0 PC=        60 complete=0, rdval=         0
+# first free for rd_1:   3
+# old dest for rd_1:  11
+# ** Note: $stop    : C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv(150)
+#    Time: 44 ns  Iteration: 1  Instance: /top
+# Break in Module top at C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv line 150
+# Compile of execute.sv was successful.

@@ -1,0 +1,37 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/simulation/modelsim
+vtop
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1638836651
+!i10b 1
+!s100 N1nPHzf9iBbYdXIS_h:cO1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I;0=6L36K^9l3WG3n@5T:I1
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1638836638
+8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv
+FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv
+!i122 12
+L0 3 44
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638836650.000000
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject}
+tCvgOpt 0

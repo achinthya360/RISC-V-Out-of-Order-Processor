@@ -1,0 +1,418 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1639377119
+!i10b 1
+!s100 oYUXM[;YUYz@W2K1J<B:`0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXOaYHW[VOO3RGJ`9zmO963
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject
+Z5 w1639362903
+Z6 8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv
+Z7 FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv
+!i122 633
+L0 60 16
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1639377119.000000
+Z10 !s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+vdatamem
+R0
+R1
+!i10b 1
+!s100 ojUoRgi53PQ1T<QRnfhLo3
+R2
+IcNL1g:C0cY7YzDaW7a6GC2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 633
+L0 35 12
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vdecode
+R0
+R1
+!i10b 1
+!s100 eK24RzJ9iC;m4BP8^dV?40
+R2
+InFI?O;S4gjoCEXkQYO1HU0
+R3
+S1
+R4
+w1639372379
+8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv
+FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv
+!i122 632
+L0 1 67
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv|
+!i113 1
+R12
+R13
+vexecute
+R0
+DXx4 work 15 execute_sv_unit 0 22 k61nPK?D;XcHZVBW0cB_]2
+Z14 !s110 1639380392
+R3
+r1
+!s85 0
+!i10b 1
+!s100 TBi64;`O0@9KOBVUM5miD3
+ICgf=OH55hnKG8]YJama_f0
+!s105 execute_sv_unit
+S1
+R4
+Z15 w1639380384
+Z16 8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv
+Z17 FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv
+!i122 637
+L0 117 174
+R8
+31
+Z18 !s108 1639380392.000000
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv|
+!i113 1
+R12
+R13
+Xexecute_sv_unit
+R0
+R14
+Vk61nPK?D;XcHZVBW0cB_]2
+r1
+!s85 0
+!i10b 1
+!s100 080k@:h0D[B=0?>BlI[;A1
+Ik61nPK?D;XcHZVBW0cB_]2
+!i103 1
+S1
+R4
+R15
+R16
+R17
+!i122 637
+L0 1 0
+R8
+31
+R18
+Z20 !s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv|
+R19
+!i113 1
+R12
+R13
+vfetch
+R0
+R1
+!i10b 1
+!s100 ;MN4KJmB4zdcc;TlLl`Pb2
+R2
+IZWEQ3AEPa9Fba1mUCUD5R3
+R3
+S1
+R4
+w1639376670
+8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv
+FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv
+!i122 631
+L0 1 56
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv|
+!i113 1
+R12
+R13
+vfreepool
+R0
+!s110 1639024432
+!i10b 1
+!s100 K@gSJ5H7ZGR1HoF^aUdlj3
+R2
+IBgUK=?kD^LDP5ICjYhL`T2
+R3
+S1
+R4
+w1639020526
+R6
+R7
+!i122 188
+L0 26 45
+R8
+r1
+!s85 0
+31
+!s108 1639024432.000000
+R10
+R11
+!i113 1
+R12
+R13
+vMEM
+R0
+R1
+!i10b 1
+!s100 1<zzkM_1]_?BdNI3_j1]10
+R2
+IiXk93zkfoX8V@Ajz=EZ]T3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 633
+L0 48 11
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@e@m
+vRAT
+R0
+!s110 1639008820
+!i10b 1
+!s100 a@IgSEBiHN5VNl;9S<B=z3
+R2
+IHnLeX2Jkd1eEg745^jHVg0
+R3
+S1
+R4
+w1639001285
+R6
+R7
+!i122 143
+L0 1 24
+R8
+r1
+!s85 0
+31
+!s108 1639008820.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@r@a@t
+vregfile
+R0
+R1
+!i10b 1
+!s100 aHi[:39_WS=[8C@n1]9Mj2
+R2
+I@EQ1L=<K;6<LWR5RiJ7=h3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 633
+L0 1 33
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vrename
+R0
+R1
+!i10b 1
+!s100 FK`zf[`<ODNZ_oIf^DU7>1
+R2
+IKRM1^gCoDkE?>kFAB>B_g3
+R3
+S1
+R4
+w1639168505
+8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv
+FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv
+!i122 634
+L0 2 91
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv|
+!i113 1
+R12
+R13
+vROB
+R0
+!s110 1639106027
+!i10b 1
+!s100 0DWB<6TRc7^Oc=zh`4i0M3
+R2
+IbADF^PLgkN;e8MV^fg@6F2
+R3
+S1
+R4
+w1639105993
+R6
+R7
+!i122 312
+L0 48 43
+R8
+r1
+!s85 0
+31
+!s108 1639106027.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@r@o@b
+vRS
+R0
+!s110 1639105790
+!i10b 1
+!s100 nPZUVCfhof3OTAN>4707j0
+R2
+IiJ6C?R@b]DL^9WImd=RC80
+R3
+S1
+R4
+w1639105676
+R6
+R7
+!i122 306
+L0 92 76
+R8
+r1
+!s85 0
+31
+!s108 1639105790.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@r@s
+Xrtl_sv_unit
+R0
+!s110 1639106444
+VRnBzNNjBU2izkc8dZOAiY3
+r1
+!s85 0
+!i10b 1
+!s100 ]YX3fj?9BmSa:`d>`4P4h1
+IRnBzNNjBU2izkc8dZOAiY3
+!i103 1
+S1
+R4
+w1639106441
+R6
+R7
+!i122 318
+L0 48 0
+R8
+31
+!s108 1639106444.000000
+R10
+R11
+!i113 1
+R12
+R13
+vtestbench
+R0
+!s110 1639377120
+!i10b 1
+!s100 E`<@2E`C?P4cbj5IXR63<1
+R2
+IlYzW2gPXiE<<zm6@0IK>90
+R3
+S1
+R4
+w1639014244
+8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv
+FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv
+!i122 635
+L0 2 43
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv|
+!i113 1
+R12
+R13
+vtop
+R0
+R1
+!i10b 1
+!s100 @UAa3>C27kQm>Bie^cSz80
+R2
+I8UVFiNk]TdO@oEX@=clz03
+R3
+S1
+R4
+w1639377112
+8C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv
+FC:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv
+!i122 630
+L0 3 157
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv|
+!i113 1
+R12
+R13
