@@ -364,7 +364,7 @@ module execute(clk, rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2, olddest_1, olddest_2
 			aluimm_1 = RS[issres].imm;
 			aluv_1 = 1;
 //			$display("Issued ALU FU 1, PC=%h", ROB[RS[issres].ROBnum].PC);
-			RS[issres].print();
+//			RS[issres].print();
 			RS[issres].clear(); // clear row in Reservation Station after issuing
 		end
 		// instruction 2

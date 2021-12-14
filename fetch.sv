@@ -17,7 +17,7 @@ module fetch(clk, pc, inst1, inst2, done);
 	integer i = 0;
 	initial begin
 		done = 1'b0;
-		instmemfile = $fopen("instMem-r.txt", "r");  
+		instmemfile = $fopen("instMem-t.txt", "r");  
 		while(!$feof(instmemfile)) begin
 			// read in instMem in decimal
 			$fscanf(instmemfile, "%d\n", instMem[i]); 

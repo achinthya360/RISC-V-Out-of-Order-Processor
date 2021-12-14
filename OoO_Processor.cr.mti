@@ -11,12 +11,13 @@ Top level modules:
 	MEM
 	ALU
 
-} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv}
+} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/execute.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module fetch
+-- Compiling package execute_sv_unit
+-- Compiling module execute
 
 Top level modules:
-	fetch
+	execute
 
 } {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -25,12 +26,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	top
 
-} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv}
+} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module testbench
+-- Compiling module decode
 
 Top level modules:
-	testbench
+	decode
 
 } {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -39,11 +40,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	rename
 
-} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv}
+} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module decode
+-- Compiling module testbench
 
 Top level modules:
-	decode
+	testbench
 
 } {} {}}
