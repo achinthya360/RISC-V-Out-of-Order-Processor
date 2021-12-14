@@ -1,13 +1,13 @@
 `timescale 1ns/1ns
 module rename(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2, 
 		rs1out_1, rs2out_1, rdout_1, rs1out_2, rs2out_2, rdout_2, olddest_1, olddest_2,
-		RegWrite_1, RegWrite_2, ALUSrc_1, ALUSrc_2,
+		RegWrite_1, RegWrite_2, MemWrite_1, MemWrite_2, ALUSrc_1, ALUSrc_2,
 		freereg_1, freereg_2);
 
 	input [4:0] rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2; // architectural registers from DECODE
 	output reg [6:0] rs1out_1, rs2out_1, rdout_1, rs1out_2, rs2out_2, rdout_2, olddest_1, olddest_2; // physical registers after renaming
 	input RegWrite_1, RegWrite_2; // control signals determine whether to use Rd or not
-	input ALUSrc_1, ALUSrc_2; // control signals determine whether to use Rs2 or not (1 means imm so no rs2)
+	input MemWrite_1, MemWrite_2, ALUSrc_1, ALUSrc_2; // control signals determine whether to use Rs2 or not (1 means imm so no rs2)
 	input [6:0] freereg_1, freereg_2; // registers to free from RETIRE
 
 	reg [6:0] RAT[0:31]; // stores physical register mapping for each architectural register
@@ -25,6 +25,14 @@ module rename(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2,
 		for (i = 0; i < 128; i = i + 1) begin
 			freepool[i] = 1'b1;
 		end
+		rs1out_1 = 0;
+		rs2out_1 = 0;
+		rdout_1 = 0;
+		rs1out_2 = 0;
+		rs2out_2 = 0;
+		rdout_2 = 0;
+		olddest_1 = 0;
+		olddest_2 = 0;
 	end
 	
 	// free register 1 from RETIRE
@@ -36,12 +44,15 @@ module rename(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2,
 		freepool[freereg_2] = 1'b1;
 	end
 
-	always @(*) begin // change in input registers indicates next instructions have been passed from DECODE
+	always @(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2, 
+		rs1out_1, rs2out_1, rdout_1, rs1out_2, rs2out_2, rdout_2, olddest_1, olddest_2,
+		RegWrite_1, RegWrite_2, MemWrite_1, MemWrite_2, ALUSrc_1, ALUSrc_2) begin // change in input registers indicates next instructions have been passed from DECODE
 		// assign corresponding pregs from RAT for first instruction's source aregs
 		rs1out_1 = RAT[rs1_1];
-		if(~ALUSrc_1) begin
+		if(~ALUSrc_1 | MemWrite_1) begin
 			rs2out_1 = RAT[rs2_1];
 		end
+		else rs2out_1 = 0;
 		// rename preg for first destination register
 		if(RegWrite_1) begin
 			olddest_1 = RAT[rd_1];
@@ -54,8 +65,8 @@ module rename(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2,
 				end else begin		// if the preg is being used, use the next free one from the free pool
 					qu = freepool.find_index with (item == 1 && item.index > 0); // find first free preg index in pool
 					firstfree = qu.pop_front();
-					$display("first free for rd_1: %d", firstfree);
-					$display("old dest for rd_1: %d", olddest_1);
+//					$display("first free for rd_1: %d", firstfree);
+//					$display("old dest for rd_1: %d", olddest_1);
 					freepool[firstfree] = 1'b0;
 					rdout_1 = firstfree;
 					RAT[rd_1] = firstfree;
@@ -65,9 +76,10 @@ module rename(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2,
 		
 		// assign corresponding pregs from RAT for first instruction's source aregs
 		rs1out_2 = RAT[rs1_2];
-		if(~ALUSrc_2) begin
+		if(~ALUSrc_2 | MemWrite_2) begin
 			rs2out_2 = RAT[rs2_2];
 		end
+		else rs2out_2 = 0;
 		// rename preg for first destination register
 		if(RegWrite_2) begin
 			olddest_2 = RAT[rd_2];
@@ -80,8 +92,8 @@ module rename(rs1_1, rs2_1, rd_1, rs1_2, rs2_2, rd_2,
 				end else begin		// if the preg is being used, use the next free one from the free pool
 					qu = freepool.find_index with (item == 1 && item.index > 0); // find first free preg index in pool
 					firstfree = qu.pop_front();
-					$display("first free for rd_2: %d", firstfree);
-					$display("old dest for rd_2: %d", olddest_2);
+//					$display("first free for rd_2: %d", firstfree);
+//					$display("old dest for rd_2: %d", olddest_2);
 					freepool[firstfree] = 1'b0;
 					rdout_2 = firstfree;
 					RAT[rd_2] = firstfree;

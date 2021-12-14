@@ -32,20 +32,22 @@ module regfile(rs1_1, rs2_1, rd_1, RegWrite_1, rs1data_1, rs2data_1, rddata_1,
 	end
 endmodule
 
-module datamem(raddr, waddr, readdata, writedata, MemWrite); // FUNCTIONAL UNIT for accessing data memory
+module datamem(raddr, waddr, readdata, writedata); // data memory for reading from / writing to memory
 	input [31:0] raddr, waddr, writedata;
-	output [31:0] readdata; 
-	input MemWrite;
-	reg [7:0] instMem[0:1023]; // data memory itself
+	output reg [31:0] readdata; 
+	//input MemWrite;
+	reg [7:0] dataMem[0:1023]; // data memory itself
 
-	assign readdata = {instMem[raddr], instMem[raddr+1], instMem[raddr+2], instMem[raddr+3]};
+	always @(*) begin
+		readdata <= {dataMem[raddr], dataMem[raddr+1], dataMem[raddr+2], dataMem[raddr+3]};
+	end
 	
-	always @(posedge MemWrite) begin
-		{instMem[waddr], instMem[waddr+1], instMem[waddr+2], instMem[waddr+3]} <= writedata;
+	always @(waddr) begin
+		{dataMem[waddr], dataMem[waddr+1], dataMem[waddr+2], dataMem[waddr+3]} <= writedata;
 	end
 endmodule
 
-module MEM(memOP, rs1val, rs2val, imm, rdval, swaddr, swdata, raddr, rdata);
+module MEM(memOP, rs1val, rs2val, imm, rdval, swaddr, swdata, raddr, rdata); // FUNCTIONAL UNIT for accessing data memory
 	input memOP;
 	input [31:0] rs1val, rs2val, imm;
 	output [31:0] rdval, swaddr, swdata, raddr; // outputs to execute.sv plus raddr to select address in data memory

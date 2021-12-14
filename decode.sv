@@ -30,11 +30,14 @@ module decode(
 	assign MemRead_1 = ({funct3_1, opcode_1} == 10'b0100000011); // only on LW instruction
 	assign MemtoReg_1 = MemRead_1; // only  on LW instruction
 	assign MemWrite_1 = ({funct3_1, opcode_1} == 10'b0100100011); // only on SW instruction
-	assign RegWrite_1 = (opcode_1 != 7'b0100011); // rd used for everything except SW instruction
+	assign RegWrite_1 = (opcode_1 != 7'b0100011 & opcode_1 != 0); // rd used for everything except SW instruction
 	assign ALUSrc_1 = (opcode_1 != 7'b0110011); // everything EXCEPT R-type uses immediate (1 means use immediate)
-	always @(funct3_1) begin
+	always @(inst1) begin
 		case (funct3_1)
-			3'b000: ALUOp_1 <= (inst1[31:29] == 3'b000) ? 2'b00 : 2'b01; // ADD if 2nd highest bit is zero, SUB if 2nd highest bit is one
+			3'b000: begin 
+				ALUOp_1 <= {1'b0, (funct7_1 != 0)}; // ADD if 2nd highest bit is zero, SUB if 2nd highest bit is one
+//				$display("OP 1: %b, funct3: %b, funct7: %b", ALUOp_1, funct3_1, funct7_1);
+			end
 			3'b110: ALUOp_1 <= 2'b10; // OR
 			3'b111: ALUOp_1 <= 2'b11; // AND
 			default: ALUOp_1 <= 2'b00; // defaults to ADD
@@ -53,11 +56,14 @@ module decode(
 	assign MemRead_2 = ({funct3_2, opcode_2} == 10'b0100000011); // only on LW instruction
 	assign MemtoReg_2 = MemRead_2; // only  on LW instruction
 	assign MemWrite_2 = ({funct3_2, opcode_2} == 10'b0100100011); // only on SW instruction
-	assign RegWrite_2 = (opcode_2 != 7'b0100011); // rd used for everything except SW instruction
+	assign RegWrite_2 = (opcode_2 != 7'b0100011 & opcode_2 != 0); // rd used for everything except SW instruction
 	assign ALUSrc_2 = (opcode_2 != 7'b0110011); // everything EXCEPT R-type uses immediate (1 means use immediate)
-	always @(funct3_2) begin
+	always @(inst2) begin
 		case (funct3_2)
-			3'b000: ALUOp_2 <= (inst2[31:29] == 3'b000) ? 2'b00 : 2'b01; // ADD if 2nd highest bit is zero, SUB if 2nd highest bit is one
+			3'b000: begin 
+				ALUOp_2 <= {1'b0, (funct7_2 != 0)}; // ADD if 2nd highest bit is zero, SUB if 2nd highest bit is one
+//				$display("OP 2: %b, funct3: %b, funct7: %b", ALUOp_2, funct3_2, funct7_2);
+			end
 			3'b110: ALUOp_2 <= 2'b10; // OR
 			3'b111: ALUOp_2 <= 2'b11; // AND
 			default: ALUOp_2 <= 2'b00; // defaults to ADD

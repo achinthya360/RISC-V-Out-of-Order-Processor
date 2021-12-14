@@ -1,3 +1,4 @@
+`timescale 1ns/1ns 
 module fetch(clk, pc, inst1, inst2, done);
 	// parameter to set length of instMem text file
 	parameter INST_MEM_LENGTH = 1024;
@@ -16,7 +17,7 @@ module fetch(clk, pc, inst1, inst2, done);
 	integer i = 0;
 	initial begin
 		done = 1'b0;
-		instmemfile = $fopen("instMem_t.txt", "r");  
+		instmemfile = $fopen("instMem-r.txt", "r");  
 		while(!$feof(instmemfile)) begin
 			// read in instMem in decimal
 			$fscanf(instmemfile, "%d\n", instMem[i]); 
@@ -28,6 +29,7 @@ module fetch(clk, pc, inst1, inst2, done);
 		end
 		*/
 		$fclose(instmemfile);
+		#10;
 	end
 
 	// instruction FETCH

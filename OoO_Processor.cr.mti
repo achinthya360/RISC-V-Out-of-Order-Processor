@@ -1,11 +1,4 @@
-{C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module fetch
-
-Top level modules:
-	fetch
-
-} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv}
+{C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rtl.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module regfile
 -- Compiling module datamem
@@ -18,19 +11,19 @@ Top level modules:
 	MEM
 	ALU
 
+} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/fetch.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
 } {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/top.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module top
 
 Top level modules:
 	top
-
-} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module decode
-
-Top level modules:
-	decode
 
 } {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/testbench.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -39,13 +32,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	testbench
 
-} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv} {2 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv}
+} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module rename
-** Warning: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv(41): (vlog-2182) 'RAT' might be read before written in always_comb or always @* block.
-** Warning: C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/rename.sv(51): (vlog-2182) 'freepool' might be read before written in always_comb or always @* block.
 
 Top level modules:
 	rename
+
+} {} {}} {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv} {1 {vlog -work work -sv -stats=none {C:/Users/achin/OneDrive/Documents/UCLA/Junior Year/Fall 2021/M116C/FinalProject/decode.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decode
+
+Top level modules:
+	decode
 
 } {} {}}

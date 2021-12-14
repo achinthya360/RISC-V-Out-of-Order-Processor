@@ -4,7 +4,8 @@ module top(inst1_FD, inst2_FD);
 	// self clocking for simulation
 	reg clk;
 	reg [31:0] pc; 
-	
+	integer cyclecount;
+
 	// OUTPUTS OF FETCH
 	output reg [31:0] inst1_FD, inst2_FD; // instructions from FETCH to DECODE module (pipeline registers)
 	reg [31:0] pc_F; // PC for FETCH module
@@ -44,15 +45,16 @@ module top(inst1_FD, inst2_FD);
 	wire [6:0] regtofree_1, regtofree_2;
 	
 	initial begin
-		clk = 1;
+		clk = 0;
 		pc = 0;
+		cyclecount = 0;
 	end
 
 	// stage initializations
 	// FETCH
 	fetch F(.clk(clk), .pc(pc_F), .inst1(inst1_FD), .inst2(inst2_FD), .done(done));
 	// DECODE
-	decode D(.inst1(inst1_FtoD), .inst2(inst2_FtoD), 
+	decode D(.inst1(inst1_FD), .inst2(inst2_FD), 
 	.rs2_1(rs2_1_DR), .rs1_1(rs1_1_DR), .rd_1(rd_1_DR), .imm_1(imm_1_DR), 
 	.rs2_2(rs2_2_DR), .rs1_2(rs1_2_DR), .rd_2(rd_2_DR), .imm_2(imm_2_DR), 
 
@@ -64,11 +66,11 @@ module top(inst1_FD, inst2_FD);
 		.rs1out_1(rs1_1_RDI), .rs2out_1(rs2_1_RDI), .rdout_1(rd_1_RDI),
 		.rs1out_2(rs1_2_RDI), .rs2out_2(rs2_2_RDI), .rdout_2(rd_2_RDI),
 		.olddest_1(olddest_1_RDI), .olddest_2(olddest_2_RDI),
-		.RegWrite_1(RegWrite_1_DtoR), .RegWrite_2(RegWrite_2_DtoR), .ALUSrc_1(ALUSrc_1_DtoR), .ALUSrc_2(ALUSrc_2_DtoR),
+		.RegWrite_1(RegWrite_1_DtoR), .RegWrite_2(RegWrite_2_DtoR), .MemWrite_1(MemWrite_1_DtoR), .MemWrite_2(MemWrite_2_DtoR), .ALUSrc_1(ALUSrc_1_DtoR), .ALUSrc_2(ALUSrc_2_DtoR),
 		.freereg_1(regtofree_1), .freereg_2(regtofree_2));
 
 	// DISPATCH, ISSUE, COMPLETE, RETIRE
-	execute E(.clk(clk), .rs1_1(rs1_1_RtoDI), .rs2_1(rs1_1_RtoDI), .rd_1(rd_1_RtoDI), .rs1_2(rs1_2_RtoDI), .rs2_2(rs2_2_RtoDI), .rd_2(rd_2_RtoDI),
+	execute E(.clk(clk), .rs1_1(rs1_1_RtoDI), .rs2_1(rs2_1_RtoDI), .rd_1(rd_1_RtoDI), .rs1_2(rs1_2_RtoDI), .rs2_2(rs2_2_RtoDI), .rd_2(rd_2_RtoDI),
 		.olddest_1(olddest_1_RtoDI), .olddest_2(olddest_2_RtoDI), .imm_1(imm_1_RtoDI), .imm_2(imm_2_RtoDI), 
 		.MemRead_1(MemRead_1_RtoDI), .MemtoReg_1(MemtoReg_1_RtoDI), .MemWrite_1(MemWrite_1_RtoDI), .ALUSrc_1(ALUSrc_1_RtoDI), .RegWrite_1(RegWrite_1_RtoDI),
 		.MemRead_2(MemRead_2_RtoDI), .MemtoReg_2(MemtoReg_2_RtoDI), .MemWrite_2(MemWrite_2_RtoDI), .ALUSrc_2(ALUSrc_2_RtoDI), .RegWrite_2(RegWrite_2_RtoDI),
@@ -154,6 +156,11 @@ module top(inst1_FD, inst2_FD);
 	always begin
 		#1
 		clk = ~clk;
+	end
+	
+	always @(negedge clk) begin
+		$display("Cycle: %d", cyclecount);
+		cyclecount++;
 	end
 
 endmodule

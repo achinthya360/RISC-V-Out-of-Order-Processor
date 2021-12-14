@@ -1,3 +1,4 @@
+`timescale 1ns/1ns 
 module fetch(clk, pc, inst1, inst2, done);
 	// parameter to set length of instMem text file
 	parameter INST_MEM_LENGTH = 1024;
@@ -28,6 +29,7 @@ module fetch(clk, pc, inst1, inst2, done);
 		end
 		*/
 		$fclose(instmemfile);
+		#10;
 	end
 
 	// instruction FETCH
@@ -40,7 +42,7 @@ module fetch(clk, pc, inst1, inst2, done);
 			8'bxxxxxxxx: inst2 <= 32'd0;
 			default: inst2 <= {instMem[pc+7], instMem[pc+6], instMem[pc+5], instMem[pc+4]};
 		endcase
-		pc <= pc + 8;
+		//pc <= pc + 8;
 
 		if (inst1 == 32'd0) begin
 			if(donecounter == 32'd10) begin
